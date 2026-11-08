@@ -11,7 +11,7 @@ Raspberry Pi 2용 IoTGoat 이미지에서 Linux 파일시스템을 추출했다.
 | 환경 | Windows에서 Oracle VirtualBox로 실행한 Ubuntu Desktop |
 | 작업 폴더 | `~/firmware-analysis-team-A/week1` |
 
-원본 이미지를 식별하기 위해 `sha256sum`으로 해시를 계산했다. [SHA-256 실행 로그](evidence/sha256.txt)
+원본 이미지를 식별하기 위해 `sha256sum`으로 해시를 계산했다. 
 
 ```text
 320b88ec8bdd7cae9f99669275b3b0f48dfea5284af9d809fa5aa6ec6a792515  IoTGoat-raspberry-pi2.img
@@ -31,8 +31,8 @@ find . -type d -name squashfs-root
 
 | 확인한 항목 | 실제 출력과 해석 |
 |---|---|
-| 디스크 이미지 | `file`에서 `DOS/MBR boot sector`가 나왔다. 첫 번째 파티션의 유형은 `0x0c`, 두 번째는 `0x83`이었다. [file 로그](evidence/file.txt) |
-| 파일시스템 위치 | `binwalk`는 이미지 시작점에서 29,360,128바이트(`0x1C00000`) 떨어진 곳에서 SquashFS를 찾았다. 이 값은 두 번째 파티션의 시작 섹터 57,344에 512바이트를 곱한 값과 일치한다. [binwalk 로그](evidence/binwalk.txt) |
+| 디스크 이미지 | `file`에서 `DOS/MBR boot sector`가 나왔다. 첫 번째 파티션의 유형은 `0x0c`, 두 번째는 `0x83`이었다.  |
+| 파일시스템 위치 | `binwalk`는 이미지 시작점에서 29,360,128바이트(`0x1C00000`) 떨어진 곳에서 SquashFS를 찾았다. 이 값은 두 번째 파티션의 시작 섹터 57,344에 512바이트를 곱한 값과 일치한다. |
 | 파일시스템 형식 | SquashFS 4.0, 리틀 엔디언, XZ 압축. 압축된 크기는 3,946,402바이트이고 inode는 1,333개였다. |
 | 추출 결과 | `./_IoTGoat-raspberry-pi2.img.extracted/squashfs-root`가 생성됐다. 최상위에서 `etc`, `bin`, `usr`, `lib`, `sbin`, `www`를 확인했다. |
 
@@ -61,9 +61,9 @@ cat "$ROOT/etc/passwd" | tee evidence/passwd.txt
 
 **실습 로그에서 확인한 내용**
 
-- `/bin/busybox`는 크기 394,485바이트, 권한 `-rwxr-xr-x`인 일반 파일이었다. [파일 상세 로그](evidence/busybox-details.txt)
-- `/etc/config/uhttpd`에는 IPv4·IPv6 모두 HTTP 80번과 HTTPS 443번이 지정돼 있었다. `redirect_https` 값은 `1`, 웹 문서 경로는 `/www`였다. [웹 서버 설정 로그](evidence/uhttpd-config.txt)
-- `/etc/passwd`에는 7개 계정이 있었다. `root`(UID 0)와 `iotgoatuser`(UID 1000)는 모두 홈 디렉터리가 `/root`, 로그인 셸이 `/bin/ash`였다. [계정 로그](evidence/passwd.txt)
+- `/bin/busybox`는 크기 394,485바이트, 권한 `-rwxr-xr-x`인 일반 파일이었다. 
+- `/etc/config/uhttpd`에는 IPv4·IPv6 모두 HTTP 80번과 HTTPS 443번이 지정돼 있었다. `redirect_https` 값은 `1`, 웹 문서 경로는 `/www`였다. 
+- `/etc/passwd`에는 7개 계정이 있었다. `root`(UID 0)와 `iotgoatuser`(UID 1000)는 모두 홈 디렉터리가 `/root`, 로그인 셸이 `/bin/ash`였다.
 
 ## 4. BusyBox 실행 파일 분석
 
@@ -75,9 +75,9 @@ strings -a "$ROOT/bin/busybox" | head -n 30 | tee evidence/busybox-strings.txt
 
 | 분석 방법 | 관찰 결과 |
 |---|---|
-| `file` | ARM용 32비트 리틀 엔디언 ELF 실행 파일이다. 동적 링크 방식이며, 로더 경로는 `/lib/ld-musl-armhf.so.1`이다. [파일 형식 로그](evidence/busybox-file.txt) |
-| `readelf -h` | `Type`은 `EXEC`, `Machine`은 `ARM`, 진입점은 `0x16d18`이다. 프로그램 헤더는 7개, 섹션 헤더는 0개였다. [ELF 헤더 로그](evidence/busybox-readelf.txt) |
-| `strings -a` | 처음 30줄에 같은 로더 경로와 `libgcc_s.so.1`, `libc.so`, `memcpy`, `malloc`, `strlen`이 보였다. 이 결과에서 확인한 범위는 바이너리에 들어 있는 라이브러리·함수 이름까지다. [문자열 30줄](evidence/busybox-strings.txt) |
+| `file` | ARM용 32비트 리틀 엔디언 ELF 실행 파일이다. 동적 링크 방식이며, 로더 경로는 `/lib/ld-musl-armhf.so.1`이다.  |
+| `readelf -h` | `Type`은 `EXEC`, `Machine`은 `ARM`, 진입점은 `0x16d18`이다. 프로그램 헤더는 7개, 섹션 헤더는 0개였다. |
+| `strings -a` | 처음 30줄에 같은 로더 경로와 `libgcc_s.so.1`, `libc.so`, `memcpy`, `malloc`, `strlen`이 보였다. 이 결과에서 확인한 범위는 바이너리에 들어 있는 라이브러리·함수 이름까지다. |
 
 ## 5. 2주차 분석 바이너리 후보 1개
 
