@@ -1,0 +1,1 @@
+./_IoTGoat-raspberry-pi2.img.extracted/squashfs-root/bin/busybox

@@ -1,0 +1,1 @@
+IoTGoat-raspberry-pi2.img: DOS/MBR boot sector; partition 1 : ID=0xc, active, start-CHS (0x20,2,3), end-CHS (0xc3,0,12), startsector 8192, 40960 sectors; partition 2 : ID=0x83, start-CHS (0xe3,2,15), end-CHS (0x14,0,16), startsector 57344, 524288 sectors

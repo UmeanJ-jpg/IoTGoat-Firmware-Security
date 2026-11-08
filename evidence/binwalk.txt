@@ -1,0 +1,176 @@
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+4253711       0x40E80F        Copyright string: "copyright does *not* cover user programs that use kernel"
+4253946       0x40E8FA        Copyright string: "copyrighted by the Free Software"
+4254058       0x40E96A        Copyright string: "copyrighted by me and others who actually wrote it."
+4254443       0x40EAEB        Copyright string: "Copyright (C) 1989, 1991 Free Software Foundation, Inc."
+4256293       0x40F225        Copyright string: "copyright the software, and"
+4257436       0x40F69C        Copyright string: "copyright holder saying it may be distributed"
+4257677       0x40F78D        Copyright string: "copyright law:"
+4258551       0x40FAF7        Copyright string: "copyright notice and disclaimer of warranty; keep intact all the"
+4259817       0x40FFE9        Copyright string: "copyright notice and a"
+4266691       0x411AC3        Copyright string: "copyrighted interfaces, the"
+4266728       0x411AE8        Copyright string: "copyright holder who places the Program under this License"
+4267946       0x411FAA        Copyright string: "copyrighted by the Free"
+4270009       0x4127B9        Copyright string: "copyright" line and a pointer to where the full notice is found."
+4270155       0x41284B        Copyright string: "Copyright (C) <year>  <name of author>"
+4271131       0x412C1B        Copyright string: "Copyright (C) year name of author"
+4271747       0x412E83        Copyright string: "copyright disclaimer" for the program, if"
+4271876       0x412F04        Copyright string: "copyright interest in the program"
+4327424       0x420800        Copyright string: "Copyright (c) 2006, Broadcom Corporation."
+4327466       0x42082A        Copyright string: "Copyright (c) 2015, Raspberry Pi (Trading) Ltd"
+4327831       0x420997        Copyright string: "copyright notice and the"
+4329472       0x421000        ELF, 32-bit LSB executable, version 1 (SYSV)
+4762160       0x48AA30        AES Inverse S-Box
+4763488       0x48AF60        AES S-Box
+5300076       0x50DF6C        GIF image data, version "87a", 18759
+5300084       0x50DF74        GIF image data, version "89a", 26983
+6702485       0x664595        Copyright string: "Copyright (c) 2012 Broadcom"
+6703400       0x664928        Ubiquiti firmware additional data, name: UTE_NONE, size: 1124091461 bytes, size2: 1344296545 bytes, CRC32: 0
+6747184       0x66F430        Copyright string: "Copyright (c) 2011 Broadcom"
+6816792       0x680418        CRC32 polynomial table, little endian
+6820888       0x681418        CRC32 polynomial table, big endian
+6843344       0x686BD0        Flattened device tree, size: 48418 bytes, version: 17
+6995236       0x6ABD24        GIF image data, version "89a", 28790
+7064588       0x6BCC0C        Copyright string: "Copyright (c) 1996-2009 Express Logic Inc. * ThreadX/SMP VideoCore Version G5.3.5.2 (SP1) SN: 3009-115-1301 *"
+7194624       0x6DC800        ELF, 32-bit LSB executable, version 1 (SYSV)
+7253304       0x6EAD38        AES Inverse S-Box
+7254624       0x6EB260        AES S-Box
+7667073       0x74FD81        Copyright string: "Copyright (c) 2012 Broadcom"
+7667988       0x750114        Ubiquiti firmware additional data, name: UTE_NONE, size: 1124073472 bytes, size2: 1212433232 bytes, CRC32: 0
+7677420       0x7525EC        Copyright string: "Copyright (c) 2011 Broadcom"
+7711040       0x75A940        Flattened device tree, size: 48418 bytes, version: 17
+7826060       0x776A8C        Copyright string: "Copyright (c) 1996-2009 Express Logic Inc. * ThreadX/SMP VideoCore Version G5.3.5.2 (SP1) SN: 3009-115-1301 *"
+8193810       0x7D0712        bix header, header size: 64 bytes, header CRC: 0x57E30830, created: 2039-08-04 09:55:12, image size: 1703936 bytes, Data Address: 0x54E34100, Entry Point: 0xA3C30, data CRC: 0x94E58000, OS: ARTOS, compression type: none, image name: ""
+8602441       0x834349        Certificate in DER format (x509 v3), header length: 4, sequence length: 774
+9003956       0x8963B4        ELF, 32-bit LSB processor-specific, ("4")
+9838733       0x96208D        Certificate in DER format (x509 v3), header length: 4, sequence length: 1284
+10543541      0xA0E1B5        Certificate in DER format (x509 v3), header length: 4, sequence length: 4355
+10565917      0xA1391D        Certificate in DER format (x509 v3), header length: 4, sequence length: 4099
+10993113      0xA7BDD9        Certificate in DER format (x509 v3), header length: 4, sequence length: 5408
+12061548      0xB80B6C        gzip compressed data, maximum compression, from Unix, last modified: 1970-01-01 00:00:00 (null date)
+12145600      0xB953C0        CRC32 polynomial table, little endian
+12852694      0xC41DD6        xz compressed data
+12880610      0xC48AE2        Unix path: /dev/vc/0
+12892404      0xC4B8F4        Unix path: /lib/firmware/updates/4.9.152
+12964446      0xC5D25E        Copyright string: "Copyright(c) Pierre Ossman"
+12971973      0xC5EFC5        Unix path: /sys/firmware/devicetree/base
+12973440      0xC5F580        Unix path: /sys/firmware/fdt': CRC check failed
+12996656      0xC65030        Neighborly text, "neighbor table overflow!s %x"
+13013554      0xC69232        Neighborly text, "NeighborSolicitsIcmp6InMsgs"
+13013571      0xC69243        Neighborly text, "NeighborAdvertisementsInErrors"
+13016103      0xC69C27        Neighborly text, "neighbor %.2x%.2x.%pM lostename link %s to %s"
+13740032      0xD1A800        Flattened device tree, size: 22493 bytes, version: 17
+13762560      0xD20000        Flattened device tree, size: 23588 bytes, version: 17
+13787136      0xD26000        Flattened device tree, size: 23707 bytes, version: 17
+13811712      0xD2C000        Flattened device tree, size: 22342 bytes, version: 17
+13836288      0xD32000        Flattened device tree, size: 1027 bytes, version: 17
+13838336      0xD32800        Flattened device tree, size: 1587 bytes, version: 17
+13840384      0xD33000        Flattened device tree, size: 2425 bytes, version: 17
+13844480      0xD34000        Flattened device tree, size: 2425 bytes, version: 17
+13848576      0xD35000        Flattened device tree, size: 2426 bytes, version: 17
+13852672      0xD36000        Flattened device tree, size: 1387 bytes, version: 17
+13854720      0xD36800        Flattened device tree, size: 1011 bytes, version: 17
+13856768      0xD37000        Flattened device tree, size: 1668 bytes, version: 17
+13858816      0xD37800        Flattened device tree, size: 787 bytes, version: 17
+13860864      0xD38000        Flattened device tree, size: 575 bytes, version: 17
+13862912      0xD38800        Flattened device tree, size: 449 bytes, version: 17
+13864960      0xD39000        Flattened device tree, size: 983 bytes, version: 17
+13867008      0xD39800        Flattened device tree, size: 1027 bytes, version: 17
+13869056      0xD3A000        Flattened device tree, size: 663 bytes, version: 17
+13871104      0xD3A800        Flattened device tree, size: 765 bytes, version: 17
+13873152      0xD3B000        Flattened device tree, size: 789 bytes, version: 17
+13875200      0xD3B800        Flattened device tree, size: 423 bytes, version: 17
+13877248      0xD3C000        Flattened device tree, size: 908 bytes, version: 17
+13879296      0xD3C800        Flattened device tree, size: 1279 bytes, version: 17
+13881344      0xD3D000        Flattened device tree, size: 1403 bytes, version: 17
+13883392      0xD3D800        Flattened device tree, size: 1932 bytes, version: 17
+13885440      0xD3E000        Flattened device tree, size: 1036 bytes, version: 17
+13887488      0xD3E800        Flattened device tree, size: 901 bytes, version: 17
+13889536      0xD3F000        Flattened device tree, size: 779 bytes, version: 17
+13891584      0xD3F800        Flattened device tree, size: 655 bytes, version: 17
+13893632      0xD40000        Flattened device tree, size: 1693 bytes, version: 17
+13895680      0xD40800        Flattened device tree, size: 1125 bytes, version: 17
+13897728      0xD41000        Flattened device tree, size: 959 bytes, version: 17
+13899776      0xD41800        Flattened device tree, size: 2468 bytes, version: 17
+13903872      0xD42800        Flattened device tree, size: 2939 bytes, version: 17
+13907968      0xD43800        Flattened device tree, size: 270 bytes, version: 17
+13910016      0xD44000        Flattened device tree, size: 991 bytes, version: 17
+13912064      0xD44800        Flattened device tree, size: 2185 bytes, version: 17
+13916160      0xD45800        Flattened device tree, size: 644 bytes, version: 17
+13918208      0xD46000        Flattened device tree, size: 2590 bytes, version: 17
+13922304      0xD47000        Flattened device tree, size: 1046 bytes, version: 17
+13924352      0xD47800        Flattened device tree, size: 1182 bytes, version: 17
+13926400      0xD48000        Flattened device tree, size: 854 bytes, version: 17
+13928448      0xD48800        Flattened device tree, size: 343 bytes, version: 17
+13930496      0xD49000        Flattened device tree, size: 1272 bytes, version: 17
+13932544      0xD49800        Flattened device tree, size: 1511 bytes, version: 17
+13934592      0xD4A000        Flattened device tree, size: 1326 bytes, version: 17
+13936640      0xD4A800        Flattened device tree, size: 1276 bytes, version: 17
+13938688      0xD4B000        Flattened device tree, size: 955 bytes, version: 17
+13940736      0xD4B800        Flattened device tree, size: 1348 bytes, version: 17
+13942784      0xD4C000        Flattened device tree, size: 1329 bytes, version: 17
+13944832      0xD4C800        Flattened device tree, size: 15229 bytes, version: 17
+13961216      0xD50800        Flattened device tree, size: 1833 bytes, version: 17
+13963264      0xD51000        Flattened device tree, size: 1833 bytes, version: 17
+13965312      0xD51800        Flattened device tree, size: 4237 bytes, version: 17
+13971456      0xD53000        Flattened device tree, size: 720 bytes, version: 17
+13973504      0xD53800        Flattened device tree, size: 1053 bytes, version: 17
+13975552      0xD54000        Flattened device tree, size: 2850 bytes, version: 17
+13979648      0xD55000        Flattened device tree, size: 569 bytes, version: 17
+13981696      0xD55800        Flattened device tree, size: 818 bytes, version: 17
+13983744      0xD56000        Flattened device tree, size: 265 bytes, version: 17
+13985792      0xD56800        Flattened device tree, size: 1105 bytes, version: 17
+13987840      0xD57000        Flattened device tree, size: 2713 bytes, version: 17
+13991936      0xD58000        Flattened device tree, size: 2617 bytes, version: 17
+13996032      0xD59000        Flattened device tree, size: 2454 bytes, version: 17
+14000128      0xD5A000        Flattened device tree, size: 1544 bytes, version: 17
+14002176      0xD5A800        Flattened device tree, size: 2385 bytes, version: 17
+14006272      0xD5B800        Flattened device tree, size: 2802 bytes, version: 17
+14010368      0xD5C800        Flattened device tree, size: 2802 bytes, version: 17
+14014464      0xD5D800        Flattened device tree, size: 1043 bytes, version: 17
+14016512      0xD5E000        Flattened device tree, size: 1057 bytes, version: 17
+14018560      0xD5E800        Flattened device tree, size: 946 bytes, version: 17
+14020608      0xD5F000        Flattened device tree, size: 1315 bytes, version: 17
+14022656      0xD5F800        Flattened device tree, size: 1301 bytes, version: 17
+14024704      0xD60000        Flattened device tree, size: 489 bytes, version: 17
+14026752      0xD60800        Flattened device tree, size: 3406 bytes, version: 17
+14030848      0xD61800        Flattened device tree, size: 643 bytes, version: 17
+14032896      0xD62000        Flattened device tree, size: 2524 bytes, version: 17
+14036992      0xD63000        Flattened device tree, size: 462 bytes, version: 17
+14039040      0xD63800        Flattened device tree, size: 771 bytes, version: 17
+14041088      0xD64000        Flattened device tree, size: 893 bytes, version: 17
+14043136      0xD64800        Flattened device tree, size: 1298 bytes, version: 17
+14045184      0xD65000        Flattened device tree, size: 1174 bytes, version: 17
+14047232      0xD65800        Flattened device tree, size: 1875 bytes, version: 17
+14049280      0xD66000        Flattened device tree, size: 879 bytes, version: 17
+14051328      0xD66800        Flattened device tree, size: 1682 bytes, version: 17
+14053376      0xD67000        Flattened device tree, size: 1728 bytes, version: 17
+14055424      0xD67800        Flattened device tree, size: 699 bytes, version: 17
+14057472      0xD68000        Flattened device tree, size: 376 bytes, version: 17
+14059520      0xD68800        Flattened device tree, size: 1508 bytes, version: 17
+14061568      0xD69000        Flattened device tree, size: 981 bytes, version: 17
+14063616      0xD69800        Flattened device tree, size: 666 bytes, version: 17
+14065664      0xD6A000        Flattened device tree, size: 635 bytes, version: 17
+14067712      0xD6A800        Flattened device tree, size: 919 bytes, version: 17
+14069760      0xD6B000        Flattened device tree, size: 492 bytes, version: 17
+14071808      0xD6B800        Flattened device tree, size: 1547 bytes, version: 17
+14073856      0xD6C000        Flattened device tree, size: 1920 bytes, version: 17
+14075904      0xD6C800        Flattened device tree, size: 2293 bytes, version: 17
+14080000      0xD6D800        Flattened device tree, size: 1547 bytes, version: 17
+14082048      0xD6E000        Flattened device tree, size: 1920 bytes, version: 17
+14084096      0xD6E800        Flattened device tree, size: 2293 bytes, version: 17
+14088192      0xD6F800        Flattened device tree, size: 4878 bytes, version: 17
+14094336      0xD71000        Flattened device tree, size: 980 bytes, version: 17
+14096384      0xD71800        Flattened device tree, size: 1436 bytes, version: 17
+14098432      0xD72000        Flattened device tree, size: 3132 bytes, version: 17
+14102528      0xD73000        Flattened device tree, size: 758 bytes, version: 17
+14104576      0xD73800        Flattened device tree, size: 1215 bytes, version: 17
+14106624      0xD74000        Flattened device tree, size: 1080 bytes, version: 17
+14108672      0xD74800        Flattened device tree, size: 1080 bytes, version: 17
+14120994      0xD77822        Unix path: /etc/modprobe.d/raspi-blacklist.conf can
+14137455      0xD7B86F        Unix path: /dev/input/event* device, all decoding is done by the kernel - LIRC is
+14156211      0xD801B3        Unix path: /lib/systemd/system/hciuart.service
+29360128      0x1C00000       Squashfs filesystem, little endian, version 4.0, compression:xz, size: 3946402 bytes, 1333 inodes, blocksize: 262144 bytes, created: 2019-01-30 12:21:02
+

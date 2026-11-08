@@ -1,0 +1,1 @@
+-rwxr-xr-x 1 yuminjae yuminjae 394485  1월 30  2019 ./_IoTGoat-raspberry-pi2.img.extracted/squashfs-root/bin/busybox

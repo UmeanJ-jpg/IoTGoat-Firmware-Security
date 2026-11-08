@@ -1,0 +1,1 @@
+320b88ec8bdd7cae9f99669275b3b0f48dfea5284af9d809fa5aa6ec6a792515  IoTGoat-raspberry-pi2.img
